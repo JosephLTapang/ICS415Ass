@@ -23,9 +23,44 @@
 
     }
 
+    #summary {
+      border-style: solid;
+      border-width: 1px;
+      text-align: center;
+      padding: 5px;
+      margin-top: 2px ;
+      margin-left: 0px;
+      margin-bottom: 2px;
+      float: left;
+    }
+    #homepage {
+      border-style: solid;
+      border-width: 1px;
+      texxt-align: left;
+      padding-top: 5px;
+      margin-top: 2px;
+      margin-left: 2px;
+      float: left;
+    }
+    footer {
+      border-style: solid;
+      border-width: 1px;
+      text-align: center;
+      clear: both;
+      padding: 2px;
+
+    }
+
+    table#t1{
+      text-align: center;
+      border-style: double;
+    }
+
   </style>
 </head>
 <body>
+
+
 <div id="Parent">
 
 <h1 align="center">Joe's Early 90's Site</h1>
@@ -34,11 +69,57 @@
   <a href="http://localhost:63342/ICS415Ass/ICS415f15/HW/A04/StaticWebsiteForms.html">Forms</a>
 </nav>
 
-<div id="Summary"></div>
 
-<div id="Home Page"></div>
+<aside id="summary">
+  <b>Summary Window</b>
+  <p>HTML supports tables.</p>
+  <p>HTML supports three different types of lists;</p>
+  <p>unordered, ordered, and description.</p>
 
-<div id="Footer"></div>
+</aside>
+
+<section id="homepage">
+  <b>Home Page</b>
+  <p>Tables: </p>
+
+  <table >
+    <tr>
+      <td align="center">Borderless</td>
+    </tr>
+    <tr>
+      <td align="center">Table</td>
+    </tr>
+    <tr>
+      <td align="center"><b>Header 1</b></td>
+    </tr>
+    <tr>
+      <td align="center">Row 1. Col 1</td>
+    </tr>
+  </table>
+
+  <br>
+
+  <table align="center">
+    <tr>Bordered Table</tr>
+  </table>
+
+  <table id="t1">
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+    </tr>
+  </table>
+
+
+
+
+</section>
+
+
+
+<footer>
+  Copyright (C) Joseph Tapang
+</footer>
 
 
 </div>
