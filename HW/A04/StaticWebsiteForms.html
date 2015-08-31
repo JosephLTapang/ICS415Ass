@@ -4,16 +4,121 @@
   <meta charset="UTF-8">
   <title>Joe's Early 90's Site</title>
   <style type="text/css">
-    h1{
+    h1 {
+      border-style: solid;
+      border-width: 1px;
+      padding: 25px;
+      margin: 0px 0px 2px 0px;
+    }
+
+    #Parent {
+      border-style:solid;
+      border-width: 1px;
+      padding: 2px;
+    }
+    nav {
+      border-style: solid;
+      border-width: 1px;
+      padding-left: 2px;
+
+    }
+
+    #summaryF {
+      border-style: solid;
+      border-width: 1px;
+      text-align: center;
+      padding: 10px;
+      margin-top: 2px ;
+      margin-left: 0px;
+      height: 100%;
+      float: left;
+    }
+    #formspage {
+      border-style: solid;
+      border-width: 1px;
+      text-align: left;
+      padding-top: 5px;
+      margin-top: 2px;
+      margin-left: 2px;
+      margin-bottom: 2px;
+      float: left;
+    }
+    footer {
+      border-style: solid;
+      border-width: 1px;
+      text-align: center;
+      clear: both;
+      padding: 2px;
+
+    }
+
+    table#t2{
+      text-align: center;
       border-style: double;
     }
+
   </style>
 </head>
 <body>
-<h1 align="center">Joe's Early 90's Site</h1>
-<a href="http://localhost:63342/ICS415Ass/ICS415f15/HW/A04/StaticWebsite.html">Home</a>
-<a href="http://localhost:63342/ICS415Ass/ICS415f15/HW/A04/StaticWebsiteForms.html">Forms</a>
 
-<p>Udder Page</p>
+
+<div id="Parent">
+
+  <h1 align="center">Joe's Early 90's Site</h1>
+
+  <nav><a href="http://localhost:63342/ICS415Ass/ICS415f15/HW/A04/StaticWebsite.html">Home</a>
+    <a href="http://localhost:63342/ICS415Ass/ICS415f15/HW/A04/StaticWebsiteForms.html">Forms</a>
+  </nav>
+
+
+  <aside id="summaryF">
+    <b>Forms Summary</b>
+    <p>HTML supports several different types of<br>input.</p>
+  </aside>
+
+  <section id="formspage">
+    <b>Forms Page</b>
+    <p>The following text is input:</p>
+    <form>
+      Username: <input type="text" name="username">
+    </form>
+    <p>Then a password input:</p>
+      Password: <input type="text" name="password">
+    <p>Radio buttons:</p>
+      <form>
+        <input type="radio" name="sex" value="Male" checked > Male
+        <br>
+        <input type="radio" name="sex" value="Female" > Female
+      </form>
+    <p>Checkboxes</p>
+         <input type="checkbox" name="os" value="Windows" checked > Windows
+         <br>
+         <input type="checkbox" name="os" value="OS X" > OS X
+        <br>
+        <input type="checkbox" name="os" value="Linux" > Linux
+      </form>
+    <p>Submit button to send form data</p>
+
+
+<!-- Forms necessary
+      Username: text field
+      Password: text field
+      Male/Female radio buttons
+      Windows/OSX/Linux checkb boxes
+      Submit button to send form data
+-->
+  </section>
+
+
+
+  <footer>
+    Copyright (C) Joseph Tapang
+  </footer>
+
+
+</div>
+
 </body>
 </html>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
