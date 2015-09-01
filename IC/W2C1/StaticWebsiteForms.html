@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Joe's Early 90's Site</title>
+  <style type="text/css">
+
+  </style>
+</head>
+<body>
+
+<table width="100%" border="1">
+  <tr>
+    <td colspan="2" align="center"><h1>Joe's Early 90's Site</h1></td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <nav><a href="http://localhost:63342/ICS415Ass/ICS415f15/HW/A04/StaticWebsite.html">Home</a>
+        <a href="http://localhost:63342/ICS415Ass/ICS415f15/HW/A04/StaticWebsiteForms.html">Forms</a>
+      </nav>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <p><b>Forms Summary</b></p>
+      <p>HTML supports several different types of<br>input</p>
+    </td>
+    <td>
+      <p><b>Forms Page</b></p>
+      <p>The following text is input:</p>
+      <form>
+        Username: <input type="text" name="username">
+      </form>
+      <p>Then a password input:</p>
+      Password: <input type="text" name="password">
+      <p>Radio buttons:</p>
+      <form>
+        <input type="radio" name="sex" value="Male" checked > Male
+        <br>
+        <input type="radio" name="sex" value="Female" > Female
+      </form>
+      <p>Checkboxes</p>
+      <input type="checkbox" name="os" value="Windows" checked > Windows
+      <br>
+      <input type="checkbox" name="os" value="OS X" > OS X
+      <br>
+      <input type="checkbox" name="os" value="Linux" > Linux
+      </form>
+      <p>Submit button to send form data</p>
+      <form action="http://localhost:63342/ICS415Ass/ICS415f15/HW/A04/StaticWebsiteForms.html" method="get">
+        <button type="submit">Submit</button>
+      </form>
+
+    </td>
+
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <footer>Copyright (C) Joseph Tapang</footer>
+    </td>
+  </tr>
+
+</table>
+
+</body>
+</html>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
