@@ -24,30 +24,20 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="StaticWebsite.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HW/A04/StaticWebsite.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-29.807692">
-              <caret line="161" column="6" selection-start-line="101" selection-start-column="2" selection-end-line="161" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StaticWebsite.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IC/W2C1/StaticWebsite.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15279362">
-              <caret line="19" column="91" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
+            <state vertical-scroll-proportion="-4.5">
+              <caret line="18" column="99" selection-start-line="18" selection-start-column="99" selection-end-line="18" selection-end-column="99" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StaticWebsiteForms.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StaticWebsiteForms.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IC/W2C1/StaticWebsiteForms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.1923075">
-              <caret line="18" column="91" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
+            <state vertical-scroll-proportion="0.66020525">
+              <caret line="50" column="94" selection-start-line="50" selection-start-column="94" selection-end-line="50" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -77,8 +67,8 @@
         <option value="$PROJECT_DIR$/OtherPage.html" />
         <option value="$PROJECT_DIR$/HW/A04/StaticWebsite.html" />
         <option value="$PROJECT_DIR$/HW/A04/StaticWebsiteForms.html" />
-        <option value="$PROJECT_DIR$/IC/W2C1/StaticWebsiteForms.html" />
         <option value="$PROJECT_DIR$/IC/W2C1/StaticWebsite.html" />
+        <option value="$PROJECT_DIR$/IC/W2C1/StaticWebsiteForms.html" />
       </list>
     </option>
   </component>
@@ -605,18 +595,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IC/W2C1/StaticWebsiteForms.html">
+    <entry file="file://$PROJECT_DIR$/IC/W2C1/StaticWebsite.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.1923075">
-          <caret line="18" column="91" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
+        <state vertical-scroll-proportion="-4.5">
+          <caret line="18" column="99" selection-start-line="18" selection-start-column="99" selection-end-line="18" selection-end-column="99" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IC/W2C1/StaticWebsite.html">
+    <entry file="file://$PROJECT_DIR$/IC/W2C1/StaticWebsiteForms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15279362">
-          <caret line="19" column="91" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
+        <state vertical-scroll-proportion="0.66020525">
+          <caret line="50" column="94" selection-start-line="50" selection-start-column="94" selection-end-line="50" selection-end-column="94" />
           <folding />
         </state>
       </provider>
