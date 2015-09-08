@@ -50,55 +50,96 @@
       border-width: 1px;
       padding-right: 2px;
     }
+
+    body{
+      background-image: url("http://www.thedogandfriends.com/wp-content/themes/naked/images/logo-dog-5.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      overflow: auto;
+      background-position-y: 600px;
+    }
   </style>
   <!-- style ends here -->
 
 </head>
 <body>
 
-<h1>Header of the Page</h1>
+<h1>Joe's Late 90's Site</h1>
 
 <nav>
   <!-- place holders for links -->
   <a href="http://localhost:63342/ICS415Ass/ICS415f15/HW/A05/Home.html">Home</a>
   <a href="http://localhost:63342/ICS415Ass/ICS415f15/HW/A05/Two.html">Forms</a>
-  <a href="http://localhost:63342/ICS415Ass/ICS415f15/HW/A05/Three.html">Gallery</a>
+  <a href="http://localhost:63342/ICS415Ass/ICS415f15/HW/A05/Three.html">Staff</a>
 </nav>
 
 <aside id="sidebar">
-  <b>Sidebar</b>
-
-  <p>Things will go here <br>
-    but who knows what things<br>
-    will go here. Maybe nothing,<br>
-    maybe something. But something<br>
-    will definitely go here...<br>
-    eventually.</p>
-  <p>sidebar sidebar sidebar<br>
-    sidebar sidebar sidebar<br>
-    sidebar sidebar sidebar<br>
-    sidebar sidebar sidebar<br>
-    sidebar sidebar sidebar</p>
+<p>Forms on this page include:<br>
+  <br>
+Color<br>
+Date<br>
+DateTime<br>
+Email<br>
+Month<br>
+Number<br>
+Range<br>
+Search<br>
+URL<br><br>
+The action for this form is to<br>
+get the forms page.</p>
 </aside>
 
 <section id="mainpage">
   <b>Main Page</b>
-  <p>
-    The main things will go here.<br>
-    I just need to decide what<br>
-    things are main and what<br>
-    things are not. What makes<br>
-    a thing main? What makes it<br>
-    unmain? Who knows.
-  </p>
 
-  <p>main main main main<br>
-    main main main main<br>
-    main main main main<br>
-    main main main main<br>
-    main main main main<br>
-    main main main main<br>
-    main main main main</p>
+<form>
+  What is the primary color of your dog?
+  <input type="color" name="dogColor">
+</form>
+
+  <form>
+    Birthday of dog:
+    <input type="date" name="bDay">
+  </form>
+
+  <form>
+    Date and time dog was adopted:
+    <input type="datetime" name="adoptiondateTime">
+  </form>
+
+  <form>
+    Email of current owner:
+    <input type="email" name="ownerEmail">
+  </form>
+
+  <form>
+    Dogs favorite month:
+    <input type="month" name="dogMonth">
+  </form>
+
+  <form>
+    Number of adopted dogs siblings:
+    <input type="number" name="numberSib">
+  </form>
+
+  <form>
+    Dogs favorite number betwee 1-10:
+    <input type="range" name="dogNum" min="1" max="10">
+  </form>
+
+  <form>
+    Search dog name Database:
+    <input type="search" name="dogData">
+  </form>
+
+  <form>
+    URL of veterinarians website:
+    <input type="url" name="vetSite">
+  </form>
+
+  <form action="http://localhost:63342/ICS415Ass/ICS415f15/HW/A05/Two.html">
+    <input type="submit" name="Submit">
+  </form>
 </section>
 
 <footer>
