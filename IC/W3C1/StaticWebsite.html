@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Joe's Early 90's Site</title>
+  <style type="text/css">
+    h1 {
+      border-style: solid;
+      border-width: 1px;
+      padding: 25px;
+      margin: 0px 0px 2px 0px;
+    }
+
+    #Parent {
+      border-style:solid;
+      border-width: 1px;
+      padding: 2px;
+    }
+    nav {
+      border-style: solid;
+      border-width: 1px;
+      padding-left: 2px;
+
+    }
+
+    #summary {
+      border-style: solid;
+      border-width: 1px;
+      text-align: center;
+      margin-top: 2px;
+      width:25%;
+      padding-bottom: 450px;
+      display: inline;
+      float: left;
+    }
+    #homepage {
+      border-style: solid;
+      border-width: 1px;
+      text-align: left;
+      margin-top: 2px;
+      margin-bottom: 3px;
+      width: 74%;
+      display: inline;
+      float: right;
+    }
+    footer {
+      border-style: solid;
+      border-width: 1px;
+      text-align: center;
+      margin-top: 2px;
+      clear: both;
+      padding: 2px;
+    }
+
+    table#t2{
+      text-align: center;
+      border-style: double;
+    }
+
+  </style>
+</head>
+<body>
+
+
+<div id="Parent">
+
+  <h1 align="center">Joe's Early 90's Site</h1>
+
+  <nav><a href="http://localhost:63342/ICS415Ass/ICS415f15/HW/A04/StaticWebsite.html">Home</a>
+    <a href="http://localhost:63342/ICS415Ass/ICS415f15/HW/A04/StaticWebsiteForms.html">Forms</a>
+  </nav>
+
+
+  <aside id="summary">
+    <b>Summary Window</b>
+    <p>HTML supports tables.</p>
+    <p>HTML supports three different types of lists;</p>
+    <p>unordered, ordered, and description.</p>
+
+  </aside>
+
+  <section id="homepage">
+    <b>Home Page</b>
+    <p>Tables: </p>
+
+    <table>
+      <tr>
+        <td align="center">Borderless</td>
+      </tr>
+      <tr>
+        <td align="center">Table</td>
+      </tr>
+      <tr>
+        <td align="center"><b>Header 1</b></td>
+      </tr>
+      <tr>
+        <td align="center">Row 1. Col 1</td>
+      </tr>
+    </table>
+
+    <br>
+    <table id="t2" border="1">
+      <caption>Bordered Table</caption>
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+      </tr>
+      <tr>
+        <td>
+          Row 1. Col 1
+        </td>
+        <td>
+          Row 1. Col 2
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Row 2. Col 1
+        </td>
+        <td>
+          Row 2. Col 2
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Footer 1
+        </td>
+        <td>
+          Footer 2
+        </td>
+      </tr>
+    </table>
+
+    <!-- Begin Lists -->
+
+    <p>Lists:</p>
+
+    <ul list-style-type="circle">
+      <li>Coffee</li>
+      <li>Milk</li>
+    </ul>
+
+    <ol type="1">
+      <li>Coffee</li>
+      <li>Milk</li>
+    </ol>
+
+    <dl>
+      <dt>Coffee</dt>
+      <dd>black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>white cold drink</dd>
+    </dl>
+
+    <p>
+      This web page has a two column layout with header, navigation bar,
+      and footer. There is a fairly large header, narrow navigation bar.
+    </p>
+
+    <p>
+      The main section of the website takes up 75% of the page. The left sidebar is center aligned.
+    </p>
+
+
+  </section>
+
+
+
+  <footer>
+    Copyright (C) Joseph Tapang
+  </footer>
+
+
+</div>
+
+</body>
+</html>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
