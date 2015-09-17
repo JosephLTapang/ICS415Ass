@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap\css\bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <title>Event Practice</title>
+
+
+</head>
+
+<body>
+
+<div class="container">
+  <div class="page-header" align="center">
+    <h1 id="jeff" >Header</h1>
+
+    <button type="button" onclick="this.innerHTML='NO!'">butt</button>
+
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="row">
+
+
+    <div class="col-sm-4" onmouseover="this.innerHTML= 'butt'">
+      Column Size 4<br>
+      Column Size 4<br>
+      Column Size 4<br>
+      Column Size 4<br>
+      Column Size 4<br>
+      Column Size 4<br>
+      Column Size 4<br>
+      Column Size 4<br>
+      Column Size 4<br>
+      Column Size 4<br>
+    </div>
+
+    <div class="col-sm-8" onmouseout="this.innerHTML='Everything is Ruined!'">
+      Column Size 8<br>
+      Column Size 8<br>
+      Column Size 8<br>
+      Column Size 8<br>
+      Column Size 8<br>
+      Column Size 8<br>
+      Column Size 8<br>
+      Column Size 8<br>
+      Column Size 8<br>
+      Column Size 8<br>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="container">
+  <!-- footer div calls changeHeader function, as a result the header element above has
+       its text changed -->
+  <div class="panel panel-default" align="center" onclick="changeHeader()">
+    Footer
+  </div>
+</div>
+
+<!-- function to set element with ID jeff to FOOTHEAD -->
+<script>
+  function changeHeader(){
+    document.getElementById("jeff").innerHTML = 'FOOTHEAD';
+  }
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="bootstrap\js\bootstrap.min.js"></script>
+
+</body>
+</html>
