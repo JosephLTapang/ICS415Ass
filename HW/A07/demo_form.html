@@ -16,63 +16,59 @@
 
 <div class="container">
   <div class="panel-header" align="center">
-    <h1>Header</h1>
+    <h1>A07 Assignment</h1>
   </div>
 </div>
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-6" style = "border: solid;">
       <h3 id= result>
         Filler
       </h3>
+      <p id = one class = "Ronald Diamond Fingers">
+      </p>
+
+      <p id = two class = "Reginald Swinging Wrist">
+      </p>
+
     </div>
 
-    <div class="col-sm-8">
-      <p id= one>
-        paragraph 1
+    <div class="col-sm-6" style = "border: solid; padding: 10px;">
+
+      <p id = error style = "color:red;">
+        <!-- contents will be replaced with error if necessary -->
       </p>
-      <p id = two class="reginald iceberg">
-        paragraph 2
-      </p>
-      <p id= three class="harold frenchmen delonque bighead">
-        paragraph 3
-      </p>
+
+      <form name="myForm" action="demo_form.html" onsubmit="return validateForm()" method="get">
+        <div class="form-group">
+          <label for="username">User name: </label>
+          <input type="text" name="name" id="username">
+        </div>
+        <div class="form-group">
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="form-group">
+          <label for="password">Password: </label>
+          <input type="password" name="password" id="password">
+        </div>
+        <div class="form-group">
+          <label for="confirm">Confirm Password: </label>
+          <input type="password" name="confirm" id="confirm">
+        </div>
+        <input type="submit" value="Submit">
+      </form>
+
     </div>
   </div>
 </div>
 
 
-<!-- form part 3 from A07 -->
-<div class="container">
-  <form name="myForm" action="demo_form.html" onsubmit="return validateForm()" method="get">
-    <div class="form-group">
-      <label for="username">User name: </label>
-      <input type="text" name="name" id="username">
-    </div>
-    <div class="form-group">
-      <label for="email">Email: </label>
-      <input type="email" name="email" id="email">
-    </div>
-    <div class="form-group">
-      <label for="password">Password: </label>
-      <input type="password" name="password" id="password">
-    </div>
-    <div class="form-group">
-      <label for="confirm">Confirm Password: </label>
-      <input type="password" name="confirm" id="confirm">
-    </div>
-    <input type="submit" value="Submit">
-  </form>
-</div>
-<!-- Part 3 ends -->
-
-
 <script src="myScript.js"></script>
 <script>
-  addClass(document.getElementById("one"), "jeff");
+  addClass(document.getElementById("one"), "Johnson");
   getClasses(document.getElementById("one"));
-
 </script>
 
 

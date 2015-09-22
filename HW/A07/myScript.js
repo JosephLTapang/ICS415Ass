@@ -40,7 +40,17 @@ function addClass(elem, className){
   }
 }
 
+/*
+ Write the validateForm function that checks that all text fields have entries and that the Password and
+ Confirm Password entries are the same. If there are any errors have the validateForm function highlight
+ the input field(s) in red and add an error message at the top of the form indicating what the error(s) were.
+ */
 function validateForm(){
-
+  //check all text fields for entries
+    //use url to check if all 4 queries have an answer
+  //check password entries same
+    //compare password and confirm password
+  //highlight input fields with errors in red
+    //add error message at top of form (maybe need to separate form into nice little box)
 }
 
