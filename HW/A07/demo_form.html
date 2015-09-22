@@ -29,7 +29,7 @@
     </div>
 
     <div class="col-sm-8">
-      <p id= one class="jeff dumas" >
+      <p id= one>
         paragraph 1
       </p>
       <p id = two class="reginald iceberg">
@@ -69,7 +69,11 @@
 
 
 <script src="myScript.js"></script>
-<script>getClasses(document.getElementById("three"));</script>
+<script>
+  addClass(document.getElementById("one"), "jeff");
+  getClasses(document.getElementById("one"));
+
+</script>
 
 
 
