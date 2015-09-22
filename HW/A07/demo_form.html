@@ -42,6 +42,32 @@
   </div>
 </div>
 
+
+<!-- form part 3 from A07 -->
+<div class="container">
+  <form name="myForm" action="demo_form.html" onsubmit="return validateForm()" method="get">
+    <div class="form-group">
+      <label for="username">User name: </label>
+      <input type="text" name="name" id="username">
+    </div>
+    <div class="form-group">
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email">
+    </div>
+    <div class="form-group">
+      <label for="password">Password: </label>
+      <input type="password" name="password" id="password">
+    </div>
+    <div class="form-group">
+      <label for="confirm">Confirm Password: </label>
+      <input type="password" name="confirm" id="confirm">
+    </div>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<!-- Part 3 ends -->
+
+
 <script src="myScript.js"></script>
 <script>getClasses("p");</script>
 
