@@ -7,7 +7,29 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-  <title></title>
+  <title>JQuery Test</title>
+
+  <script>
+    $(document).ready(function(){
+      $("#hide").click(function(){
+        $("p").hide();
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $("#show").click(function(){
+        $("p").show();
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $("load").click(function(){
+        $("#divfoot").load("LoadText.txt");
+      });
+    });
+  </script>
 </head>
 
 <body>
@@ -16,21 +38,26 @@
   <div class="panel-header">
     <h1>Header</h1>
   </div>
+  <button id="hide">Hide</button>
+  <button id="show">Show</button>
+  <button id="load">Load File</button>
 </div>
 
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-      <p>Col 1<br>
+      <p id="one">Col 1<br>
       Col 1<br>
       Col 1<br>
       Col 1<br>
       Col 1<br>
       Col 1<br>
       </p>
+
+
     </div>
     <div class="col-sm-8">
-      <p>Col 2<br>
+      <p id="two">Col 2<br>
       Col 2<br>
       Col 2<br>
       Col 2<br>
@@ -44,7 +71,7 @@
 </div>
 
 <div class="container">
-  <div class="panel-footer" align="center">
+  <div class="panel-footer" align="center" id="divfoot">
     Footer
   </div>
 </div>
