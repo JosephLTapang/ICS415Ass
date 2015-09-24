@@ -25,8 +25,15 @@
   </script>
   <script>
     $(document).ready(function(){
-      $("load").click(function(){
-        $("#divfoot").load("LoadText.txt");
+      $("#load").click(function(){
+        $("#two").load("LoadText");
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $("#load").click(function(){
+        $("#two").load("LoadText");
       });
     });
   </script>
@@ -41,6 +48,7 @@
   <button id="hide">Hide</button>
   <button id="show">Show</button>
   <button id="load">Load File</button>
+  <button id="super">Get</button>
 </div>
 
 <div class="container">
@@ -72,7 +80,7 @@
 
 <div class="container">
   <div class="panel-footer" align="center" id="divfoot">
-    Footer
+    <p>Footer</p>
   </div>
 </div>
 
