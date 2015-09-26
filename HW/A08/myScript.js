@@ -6,7 +6,7 @@
 function answerOne() {
   $(document).ready(function () {
     $("#one").click(function () {
-      $("#answer1").toggle();
+      $("#question1,#answer1").toggle();
     });
   });
 }
@@ -14,7 +14,7 @@ function answerOne() {
 function answerTwo() {
   $(document).ready(function () {
     $("#two").click(function () {
-      $("#answer2").toggle();
+      $("#question2,#answer2").toggle();
     });
   });
 }
@@ -22,7 +22,7 @@ function answerTwo() {
 function answerThree() {
   $(document).ready(function () {
     $("#three").click(function () {
-      $("#answer3").toggle();
+      $("#question3,#answer3").toggle();
     });
   });
 }
@@ -30,7 +30,7 @@ function answerThree() {
 function answerFour() {
   $(document).ready(function () {
     $("#four").click(function () {
-      $("#answer4").toggle();
+      $("#question4,#answer4").toggle();
     });
   });
 }
@@ -38,7 +38,7 @@ function answerFour() {
 function answerFive() {
   $(document).ready(function () {
     $("#five").click(function () {
-      $("#answer5").toggle();
+      $("#question5, #answer5").toggle();
     });
   });
 }
