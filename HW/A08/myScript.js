@@ -2,7 +2,7 @@
  * Created by StickandJab on 9/25/2015.
  */
 
-//JQuery functions go here
+//Part I
 function answerOne() {
   $(document).ready(function () {
     $("#one").click(function () {
@@ -41,5 +41,10 @@ function answerFive() {
       $("#question5, #answer5").toggle();
     });
   });
+}
+
+//Part II
+function linkCount(){
+ document.getElementById("result").innerHTML = document.getElementById("urlSearch").value;
 }
 

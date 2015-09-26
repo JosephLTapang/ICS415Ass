@@ -12,8 +12,30 @@
 </head>
 <body>
 
-<!-- count the number of hrefs -->
+<!--
+input form with URL input field
+submit button
+  gets URL
+  count the number of (links)hrefs
+show result below input form
+-->
+<div class="container">
+  <div class="panel-header" align="center">
+    <h1>URL Link Counter</h1>
+  </div>
+</div>
 
+<div class="container">
+  <form name="myForm" onSubmit="linkCount()">
+    Enter URL:
+    <input type="url" id="urlSearch">
+    <input type="submit">
+  </form>
+  <p id="result">Stuff</p>
+</div>
+
+
+<script src="myScript.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="bootstrap\js\bootstrap.min.js"></script>
 </body>
