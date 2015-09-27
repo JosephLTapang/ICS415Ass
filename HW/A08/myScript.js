@@ -45,6 +45,7 @@ function answerFive() {
 
 //Part II
 function linkCount(){
- document.getElementById("result").innerHTML = document.getElementById("urlSearch").value;
+  var values = location.search;
+  document.getElementById("result").innerHTML = values.toString();
 }
 

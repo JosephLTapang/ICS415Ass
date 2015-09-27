@@ -15,10 +15,14 @@
 <!--
 input form with URL input field
 submit button
-  gets URL
+  send back to formPage
+  need to collect url from formPage query url string
+
+
   count the number of (links)hrefs
 show result below input form
 -->
+
 <div class="container">
   <div class="panel-header" align="center">
     <h1>URL Link Counter</h1>
@@ -26,16 +30,17 @@ show result below input form
 </div>
 
 <div class="container">
-  <form name="myForm" onSubmit="linkCount()">
+  <form name="myForm" action="formPage.html" method="get" onsubmit="return linkCount()">
     Enter URL:
-    <input type="url" id="urlSearch">
+    <input type="url" name="page">
     <input type="submit">
   </form>
-  <p id="result">Stuff</p>
+  <p id="result">Things to be replaced.</p>
 </div>
 
 
 <script src="myScript.js"></script>
+<script>linkCount();</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="bootstrap\js\bootstrap.min.js"></script>
 </body>
