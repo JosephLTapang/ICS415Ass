@@ -30,14 +30,13 @@ show result below input form
 </div>
 
 <div class="container">
-  <form name="myForm" action="formPage.html" method="get" onsubmit="return linkCount()">
+  <form name="myForm" action="formPage.html" method="get" onsubmit="linkCount()">
     Enter URL:
     <input type="url" name="page">
     <input type="submit">
   </form>
-  <p id="result">Things to be replaced.</p>
+  <p id="result"></p>
 </div>
-
 
 <script src="myScript.js"></script>
 <script>linkCount();</script>

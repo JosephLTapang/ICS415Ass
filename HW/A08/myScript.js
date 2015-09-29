@@ -44,8 +44,7 @@ function answerFive() {
 }
 
 //Part II
-function linkCount(){
-  var values = location.search;
-  document.getElementById("result").innerHTML = values.toString();
+function linkCount() {
+    document.getElementById("result").innerHTML = document.links.length + " links";
 }
 
