@@ -1,2 +1,2 @@
-# ICS415f15
-ICS415-002-A02
+# Taken from exercises done in the Intro to Web Design clas ICS 415.
+
